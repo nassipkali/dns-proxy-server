@@ -1,7 +1,7 @@
 # dns-proxy-server
 DNS proxy server
 
-#Example of usage
+# Example of usage
 Build:
 ```sh
 make
