@@ -23,3 +23,7 @@ And run executable:
 ```
 ./dns_proxy
 ```
+Example of DNS request to DNS Proxy server:
+```
+dig @0.0.0.0 google.com
+```
