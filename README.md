@@ -19,3 +19,7 @@ blacklist.txt
 yandexru
 googlecom
 ```
+And run executable:
+```
+./dns_proxy
+```
