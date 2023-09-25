@@ -42,7 +42,7 @@ int is_blacklisted(char *domain, char *blacklist_file) {
             line[line_length - 1] = '\0'; // Удаляем символ новой строки
         }
 
-        printf("log blacklist. domain = %s, line = %s\n", domain, line);
+        //printf("log blacklist. domain = %s, line = %s\n", domain, line);
         if (strcmp(domain, line) == 0) {
             fclose(file);
             return 1;
